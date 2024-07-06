@@ -1,9 +1,21 @@
 site_name: An's Notes
 theme: 
   name: material
+  feature: 
+
   palette:
-    primary: 'red'
-    accent: 'light blue'
+    - scheme: default
+      toggle: 
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle: 
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
   font:
     text: 'sans-serif'
     code: 'sans-serif'
