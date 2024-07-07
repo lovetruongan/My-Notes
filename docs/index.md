@@ -1,5 +1,4 @@
-# Welcome to MkDocs
-
+# Welcome to Mynotes
 
 ## Commands
 
@@ -14,3 +13,23 @@
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
