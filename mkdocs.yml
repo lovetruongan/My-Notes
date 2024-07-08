@@ -1,4 +1,11 @@
 site_name: An's Notes
+homepage: https://shareli.me
+site_description: A collection of notes and thoughts on various topics.
+site_author: Truong An
+site_url: https://shareli.me
+repo_url: https://github.com/lovetruongan/My-Notes
+repo_name: My Notes
+copyright: Copyright &copy; 2024 Truong An
 theme: 
   name: material
   logo: /assets/logo.png
@@ -26,41 +33,32 @@ theme:
       toggle: 
         icon: material/brightness-5
         name: Switch to light mode
-      primary: light-blue
+      primary: black
       accent: lime
   font:
     text: 'sans-serif'
     code: 'roboto-mono'
-  extra:
-    analytics: 
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/thumb-up-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/thumb-down-outline
-          name: This page could be improved
-          data: 0
-          note: >- 
-            Thanks for your feedback! Help us improve this page by
-            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
-    homepage: https://shareli.me
-    consent:
-    title: Cookie consent
-    description: >-
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
+#Page tree
 nav:
-  - Home: 
-    - home/home.md
   - index.md
+  - AWS:
+    - AWS/AWS.md
+  - Linux:
+    - Linux/Linux.md
+  - Docker:
+    - Docker/Docker.md
+  - Kubernetes:
+    - Kubernetes/Kubernetes.md
+  - Terraform:
+    - Terraform/Terraform.md
+  - CI/CD:
+    - CI-CD/CI-CD.md
+  - Networking:
+    - Networking/Networking.md
   - Blog:
-    - blog/index.md
+      - blog/index.md
+#plugin
+
 plugins:
   - search
   - blog
@@ -72,4 +70,16 @@ plugins:
         - categories
         - tags 
 
-
+#additional
+extra:
+  social:
+    - name: GitHub
+      icon: fontawesome/brands/github
+      link: https://github.com/lovetruongan/
+    - name: Facebook
+      icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/lovetruongan/
+    - name: linkedin
+      icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/nguyễn-bùi-trường-an
+#Extensions
