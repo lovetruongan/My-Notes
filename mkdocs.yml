@@ -13,6 +13,7 @@ theme:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
   features: 
+    - navigation.indexes
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
@@ -52,23 +53,21 @@ nav:
   - Terraform:
     - Terraform/Terraform.md
   - CI/CD:
-    - CI-CD/CI-CD.md
+    - CICD/CI-CD.md
   - Networking:
     - Networking/Networking.md
+  - Monitoring:
+    - Monitoring/Monitoring.md
   - Blog:
       - blog/index.md
+
 #plugin
 
 plugins:
   - search
   - blog
-  - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags 
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
 #additional
 extra:
