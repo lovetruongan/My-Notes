@@ -9,6 +9,7 @@ copyright: Copyright &copy; 2024 Truong An
 theme: 
   name: material
   logo: /assets/logo.png
+  favicon: /assets/favicon.png
   icon: 
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
@@ -28,7 +29,7 @@ theme:
       toggle: 
         icon: material/brightness-4
         name: Switch to dark mode
-      primary: indigo
+      primary: red
       accent: purple
     - scheme: slate
       toggle: 
@@ -37,15 +38,19 @@ theme:
       primary: black
       accent: lime
   font:
-    text: 'sans-serif'
+    text: 'Roboto'
     code: 'roboto-mono'
 #Page tree
 nav:
   - index.md
   - AWS:
     - AWS/AWS.md
+    - IAM & AWS CLI : AWS/IAM.md
+    - Amazon Elastic Compute Cloud (EC2) : AWS/EC2.md
   - Linux:
     - Linux/Linux.md
+    - Linux CheatSheet: Linux/Linux-Cheatsheet.md
+    - Linux Advanced Commands: Linux/Advanced-command.md
   - Docker:
     - Docker/Docker.md
   - Kubernetes:
