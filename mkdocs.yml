@@ -1,5 +1,4 @@
 site_name: An's Notes
-homepage: https://shareli.me
 site_description: A collection of notes and thoughts on various topics.
 site_author: Truong An
 site_url: https://shareli.me
@@ -21,9 +20,10 @@ theme:
     - navigation.scrollspy
     - navigation.expand
     - navigation.path
-    - toc.integrate
+    - navigation.indexes
     - navigation.top
     - search.highlight
+    - toc.follow
   palette:
     - scheme: default
       toggle: 
@@ -47,6 +47,9 @@ nav:
     - AWS/AWS.md
     - IAM & AWS CLI : AWS/IAM.md
     - Amazon Elastic Compute Cloud (EC2) : AWS/EC2.md
+  - FCJ_2024:
+    - FCJ_2024/FCJ_2024.md
+    - FCJ_2024/Pipeline/pipeline.md
   - Linux:
     - Linux/Linux.md
     - Linux CheatSheet: Linux/Linux-Cheatsheet.md
@@ -64,16 +67,17 @@ nav:
   - Monitoring:
     - Monitoring/Monitoring.md
   - Blog:
-      - blog/index.md
+    - blog/index.md
 
 #plugin
 
 plugins:
   - search
-  - blog
+  - blog:
+      blog_toc: true
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-
+  - tags 
 #additional
 extra:
   social:
@@ -87,3 +91,15 @@ extra:
       icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/nguyễn-bùi-trường-an
 #Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      title: On this page
+  - tables
+

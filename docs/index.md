@@ -1,13 +1,15 @@
-# Welcome to My Notes Website!
+# Home
 
 Welcome to my personal note website! This is a space where I share my thoughts, ideas, and knowledge on various topics. Feel free to explore, learn, and contribute.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [Contact](#contact)
+- [Home](#home)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [How to Use](#how-to-use)
+  - [Contributing](#contributing)
+  - [Contact](#contact)
 
 ## Introduction
 This website is a collection of my personal notes and writings. It covers a wide range of topics including technology, science, personal development, and more. Whether you're here to find information, gain insights, or simply browse, I hope you find something valuable.
