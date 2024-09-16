@@ -1,0 +1,19 @@
+@media (min-width: 76.25em) {
+    .md-main__inner {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .md-sidebar--secondary {
+        margin-left: 0;
+        margin-right: 2rem;
+    }
+    .md-content {
+        margin-left: 2rem;
+    }
+    .md-sidebar--primary {
+        order: 1;
+    }
+    .md-content__inner {
+        order: 2;
+    }
+}
