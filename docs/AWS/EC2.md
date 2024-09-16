@@ -6,6 +6,7 @@ EC2 is a Regional Service and an Infrastructure as a Service (IaaS).
 - You are limited to running On-Demand Instances per your vCPU-based On-Demand Instance limit, purchasing 20 Reserved Instances, and requesting Spot Instances per your dynamic Spot limit per region.
 
 ## Feature
+
 - The AWS Nitro System is the underlying platform of the next generation of EC2 instances. Traditionally, hypervisors protect the physical hardware and BIOS, virtualize the CPU, storage, networking, and provide a rich set of management capabilities. With the Nitro System, these functions are offloaded to dedicated hardware and software, thereby reducing the costs of your instances in the process. Hence, the Nitro Hypervisor delivers performance that is indistinguishable from bare metal and performs better than its predecessor: the Xen Hypervisor.
 - **Instances**: Server environments are called instances.
 - **Amazon Machine Images (AMIs)**: Package OS and additional installations in a reusable template.
@@ -106,7 +107,7 @@ CloudWatch is used for EC2 Monitoring
 
 ## Instance Metadata
 
-URL to fetch metadata about the instance: http://169.254.169.254/latest/meta-data
+URL to fetch metadata about the instance: <http://169.254.169.254/latest/meta-data>
 
 ## Run Command
 
@@ -121,6 +122,7 @@ Systems Manager Run Command lets you remotely manage the configuration of your m
 ## Troubleshooting
 
 Common reasons for immediate instance termination:
+
 - Reached EBS volume limit
 - Corrupt EBS snapshot
 - Encrypted root EBS volume without proper KMS key permissions

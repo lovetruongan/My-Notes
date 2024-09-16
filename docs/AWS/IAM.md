@@ -1,17 +1,18 @@
 # Identity & Access Management (IAM)
-/
- * The Global Service in IAM allows IAM entities like roles to be used in any region without the need for recreation.
+
+* The Global Service in IAM allows IAM entities like roles to be used in any region without the need for recreation.
  * This means that if you create a role in one region, you can use that same role in any other region without any additional configuration.
  * 
- * This feature provides flexibility and simplifies the management of IAM entities across different regions in AWS./
+ * This feature provides flexibility and simplifies the management of IAM entities across different regions in AWS.
  
 - Global Service (IAM entities like roles can be used in any region without recreation)
 
 ## Users & Groups
-- Groups are collections of users and have policies attached to them
-- Groups cannot be nested
+
+* Groups are collections of users and have policies attached to them
+* Groups cannot be nested
 - User can belong to multiple groups
-- User doesn't have to belong to a group
+* User doesn't have to belong to a group
 - Root User has full access to the account
 - IAM User has limited permission to the account
 - You should log in as an IAM user with admin access even if you have root access. This is just to be sure that nothing goes wrong by accident.

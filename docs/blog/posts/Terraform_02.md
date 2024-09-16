@@ -6,7 +6,8 @@ decription: test
 link: AWS/AWS.md
 ---
 # Managing terraform state (Medium)
-
+!!! note
+    Test
 ## Overview 
 Terraform must store the state about your managed infrastructure and configuration. This state is used by Terraform to map real-world resources to your configuration, keep track of metadata, and improve performance for large infrastructures.
 <!-- more -->

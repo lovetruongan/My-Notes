@@ -12,7 +12,25 @@ theme:
   icon: 
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
-  features: 
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+  features:
+    - content.tooltips
+    - content.code.annotate 
+    - content.code.select
+    - content.code.copy
+    - content.tabs.link
     - navigation.indexes
     - navigation.instant
     - navigation.tracking
@@ -29,7 +47,7 @@ theme:
       toggle: 
         icon: material/brightness-4
         name: Switch to dark mode
-      primary: red
+      primary: blue
       accent: purple
     - scheme: slate
       toggle: 
@@ -66,6 +84,9 @@ nav:
     - Networking/Networking.md
   - Monitoring:
     - Monitoring/Monitoring.md
+  - Algorithm:
+    - Algorithm/Algorithm.md
+    - Algorithm/Test/test.md
   - Blog:
     - blog/index.md
 
@@ -102,4 +123,25 @@ markdown_extensions:
       permalink: true
       title: On this page
   - tables
-
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra_css:
+  - stylesheets/extra.css
